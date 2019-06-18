@@ -10,9 +10,9 @@ var ull = document.querySelector('#shoujidianhua');
 // 	leftul1.style.display = 'none';
 // 	console.log("asdfasdf")
 // }
-start ();
-function start () {
-	alert（"这是一个模仿小米商城的首页！！！"）;
+start();
+function start(){
+	alert("这不是官方网站，这只是一个模仿小米官网的首页！！！！");
 }
 
 function clearActive(){
