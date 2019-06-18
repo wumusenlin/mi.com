@@ -3,13 +3,17 @@ var points = document.getElementsByClassName("point");
 var goPreBtn = document.getElementById("goPre");
 var goNextBtn = document.getElementById('goNext');
 var time = 30;
-var index = 0; 
+var	index = 0; 
 var leftul1 = document.getElementById('leftUl');
 var ull = document.querySelector('#shoujidianhua');
 // ull.click = function(){
 // 	leftul1.style.display = 'none';
 // 	console.log("asdfasdf")
 // }
+start();
+function start(){
+	alert("zheshisdhfa");
+}
 function clearActive(){
 	for(var i = 0;i < items.length;i ++){
 		items[i].className =  'item';
