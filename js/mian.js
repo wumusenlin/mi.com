@@ -3,7 +3,7 @@ var points = document.getElementsByClassName("point");
 var goPreBtn = document.getElementById("goPre");
 var goNextBtn = document.getElementById('goNext');
 var time = 30;
-var	index = 0; 
+var index = 0; 
 var leftul1 = document.getElementById('leftUl');
 var ull = document.querySelector('#shoujidianhua');
 // ull.click = function(){
@@ -12,7 +12,7 @@ var ull = document.querySelector('#shoujidianhua');
 // }
 start();
 function start(){
-	alert("zheshisdhfa");
+	alert("注意！这不是官网，是模仿小米商城的主页！");
 }
 function clearActive(){
 	for(var i = 0;i < items.length;i ++){
