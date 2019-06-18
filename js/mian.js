@@ -10,6 +10,7 @@ var ull = document.querySelector('#shoujidianhua');
 // 	leftul1.style.display = 'none';
 // 	console.log("asdfasdf")
 // }
+alert（"这是一个模仿小米商城的首页！！！"）
 function clearActive(){
 	for(var i = 0;i < items.length;i ++){
 		items[i].className =  'item';
