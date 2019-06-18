@@ -3,18 +3,13 @@ var points = document.getElementsByClassName("point");
 var goPreBtn = document.getElementById("goPre");
 var goNextBtn = document.getElementById('goNext');
 var time = 30;
-var	index = 0; 
+var index = 0; 
 var leftul1 = document.getElementById('leftUl');
 var ull = document.querySelector('#shoujidianhua');
 // ull.click = function(){
 // 	leftul1.style.display = 'none';
 // 	console.log("asdfasdf")
 // }
-start();
-function start(){
-	alert("这不是官方网站，这只是一个模仿小米官网的首页！！！！"); 
-}
-
 function clearActive(){
 	for(var i = 0;i < items.length;i ++){
 		items[i].className =  'item';
