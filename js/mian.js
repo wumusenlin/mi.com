@@ -10,6 +10,10 @@ var ull = document.querySelector('#shoujidianhua');
 // 	leftul1.style.display = 'none';
 // 	console.log("asdfasdf")
 // }
+start();
+function start(){
+	alert("zheshisdhfa");
+}
 function clearActive(){
 	for(var i = 0;i < items.length;i ++){
 		items[i].className =  'item';
