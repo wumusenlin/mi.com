@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/index_jquey.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/mian.js" type="text/javascript" charset="utf-8"></script>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<title>小米官网-wumusenlin</title>
 </head>
 <body>
-
+		<div id="gouwuchebox">
+				<p>这里什么都没有~</p>
+		</div>
 	<!-- navigation -->
-
-	<div class="nav">
+	
+	<nav class="nav">
 			<div class="nav_black">
 					<ul class="nav_black_left">
 						<li><a href="https://www.mi.com/index.html">小米商城</a></li>
@@ -24,30 +28,23 @@
 						<li><a href="https://www.mi.com/appdownload/">下载app</a></li>
 						<li><a href="https://www.mi.com/index.html#J_modal-globalSites">Select Region</a></li>
 					</ul>
-				<div class="nav_black_right">
-					<ul>
-						<li><a href="">消息通知</a></li>
-						<li><a href="javascript:void(0);">登录</a></li>
-						<li><a href="javascript:void(0);">注册</a></li>
-					</ul>
-				</div>
-				
-			</div>
-	</div>
-	<div id="gouwucheWarp">
-		<ul>
-			<li class="nav_gouwuche">
+			<div class="nav_black_right">
 				<ul>
-					<li>\__/***购物车（0）</li>
-					<ul id="ul">
-						<li id="li">
-							<p>购物车中还没有商品，赶紧选购吧！</p>
-						</li>
-					</ul>
+					<li><a href="">消息通知</a></li>
+					<li><a href="javascript:void(0);">登录</a></li>
+					<li><a href="javascript:void(0);">注册</a></li>
 				</ul>
-			</li>
-		</ul>
-	</div>
+			</div>
+			<div id="gouwucheWarp">
+				<ul class="nav_gouwuche">
+						<li>\__/***购物车（0）</li>
+				</ul>					
+			</div>
+				</li>
+			</ul>	
+			</div>
+	</nav>
+		
 		
 
 	<!-- banner -->
@@ -121,6 +118,7 @@
 						<a  class="nav_whith_right_zhanleisearch_a" href="https://www.mi.com/mi9se/">小米9se</a>
 					</div>
 			</form>
+			
 	</div>
 
 	<!-- project -->
@@ -145,7 +143,6 @@
 					</li>
 				</ul>
 				<div class="leftAll">
-					
 					<ul id = 'left_ul2'>
 						<li class="li" id='shoujidianhua'>
 									手机 电话     <span>></span>
@@ -358,9 +355,11 @@
 	</div>
 	
 	<!-- 手机 -->
-	<div class="phone">
-		<p id = "phone">手机</p>
-		<a id = "morePhone" href="https://www.mi.com/p/1915.html">查看全部 ></a>
+	<div class="phoneAll">
+		<div class="phoneTop"> 
+			<p id = "phone">手机</p>
+			<a id = "morePhone" href="https://www.mi.com/p/1915.html">查看全部 ></a>
+		</div>
 		<div class="phoneImg">
 			<div class="phoneLeft">
 				<a href="https://item.mi.com/1190800041.html"><img src="https://i1.mifile.cn/a4/xmad_15523945788008_wGKWT.jpg" alt="" width="214px" height="614px"></a>
@@ -486,9 +485,11 @@
 			<li><a href="https://www.mi.com/a/h/8571.html"><img src="https://i1.mifile.cn/a4/xmad_1554889211766_YFqNH.jpg" alt="" heigth="170px" width = "1226px"></a></li>
 		</ul>
 	</div>
-	<div class="phone">
-		<p id = "phone">家电</p>
-		<a id = "morePhone" href="https://www.mi.com/p/1915.html">查看全部 ></a>
+	<div class="phoneAll">
+		<div class="phoneTop"> 
+			<p id = "phone">家电</p>
+			<a id = "morePhone" href="https://www.mi.com/p/1915.html">查看全部 ></a>
+		</div>
 		<div class="phoneImg">
 			<div class="phoneLeft">
 				<a href="https://item.mi.com/1190800041.html"><img src="https://i1.mifile.cn/a4/xmad_15523945788008_wGKWT.jpg" alt="" width="214px" height="614px"></a>
