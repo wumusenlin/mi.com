@@ -9,6 +9,7 @@ var ull = document.querySelector('#shoujidianhua');
 
 
 
+alert("注意！这只是对小米商城网页模仿的模仿，仅学习用！目前只支持1336*768分辨率显示器！")
 // ull.click = function(){
 // 	leftul1.style.display = 'none';
 // 	console.log("asdfasdf")
