@@ -659,7 +659,7 @@ body{
 }
 
 .phoneImg {
-	width: 100%;
+	width: 1246px;
 	margin: 20px auto;
 	height: 100%;
 	position: relative;
@@ -672,7 +672,7 @@ body{
 	width: 214px;
 	height: 614px;
 	/* left: 0; */
-	margin-left: 5%;
+	/* margin-left: 5%; */
 	float: left;
 	z-index: 10;
 	transition: all 0.4s ease;
@@ -692,23 +692,25 @@ body{
 
 .phoneLeft img:hover {
 	position: absolute;
-	left: 5%;
+	left: 0;
 	top: -3px;
 	transition: all 0.2s ease;
 	box-shadow: 10px 10px 50px #B9B9B9;
 }
 
 .phoneBigRight {
+	float: left;
 	display: block;
-	width: auto;
-	/* position: relative; */
-	/* top: 30px;
-	right: 0; */
+	width: 1016px;
 	height: 100%;
 	background-color: #EEEEEE;
-	/* float:left; */
-	
+	/* *zoom:1; */
 }
+/* .phoneBigRight:after{
+	display: table;
+	content: " ";
+	clear: both;
+} */
 .phoneRight {
 	margin-left: 16px;
 	margin-bottom: 14px;
