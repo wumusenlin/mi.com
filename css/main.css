@@ -68,22 +68,22 @@ body{
 .nav {
 	height: 40px;
 	width: 100%;
-	margin: 0 auto;
-	background-color: #fff;
+	/* margin: 0 auto; */
+	background-color: #333;
 	overflow: hidden;
 }
 
 .nav_black {
 	/* overflow: hidden; */
 	height: 40px;
-	width: 100%;
+	width: 1226px;
+	margin: 0 auto;
 	background-color: #333;
 	position: relative;
-	float: left;
 }
 
 .nav_black_left {
-	margin-left: 5%;
+	/* margin-left: 5%; */
 	position: absolute;
 	width: auto;
 	float: left;
@@ -112,7 +112,7 @@ body{
 .nav_black_right {
 	float: right;
 	width: auto;
-	margin-right: 17%;
+	margin-right: 150px;
 	height: 100%;
 	/* overflow: inherit */;
 }
@@ -138,7 +138,7 @@ body{
 
 #gouwucheWarp{
 	position: absolute;
-	right: 5%;
+	right: 0;
 	top: 0;
 	width: 140px;
 	height: 40px;
@@ -177,13 +177,13 @@ body{
 	margin: 22.5px auto;
 	display: block;
 	height: 55px;
-	width: 100%;
+	width: 1226px;
 	position: relative;
 	overflow: hidden;
 }
 
 .nav_whith_logo {
-	margin-left: 5%;
+	/* margin-left: 5%; */
 	width: 55px;
 	height: 55px;
 	float: left;
@@ -201,7 +201,7 @@ body{
 	top: 0; */
 	height: 100%;
 	float: left;
-	margin-left: 10%;
+	margin-left: 200px;
 	overflow: hidden;
 }
 .nav_whith_mid .nav_whith_llist{
@@ -275,7 +275,7 @@ body{
 	float: right;
 	height: 50px;
 	line-height: 50px;
-	margin-right: 5.5%;
+	/* margin-right: 5.5%; */
 	position: relative;
 }
 
@@ -353,8 +353,8 @@ body{
 .project_all {
 	/* display: block; */
 	height: 480px;
-	width: 90%;
-	margin: 0 5%;
+	width: 1226px;
+	margin: 0 auto;
 }
 
 .project {
@@ -579,15 +579,20 @@ body{
 
 
 .subject {
-	padding-left: 5%;
+	/* padding-left: 5%; */
 	display: block;
-	margin: 20px 0;
+	margin: 20px auto;
 	width: 1226px;
 	height: 340px;
 
 }
 
 .subject img {
+	float: left;
+}
+.subject .subject_yewu{
+	width: 234px;
+	height: 170px;
 	float: left;
 }
 
@@ -597,7 +602,10 @@ body{
 	position: relative;
 	margin-bottom: 20px;
 }
-
+.subject .first a{
+	width: 100%;
+	height: 100%;
+}
 .subject .first_li {
 	padding-left: 22px;
 	float: left;
@@ -629,13 +637,14 @@ body{
 
 }
 .phoneTop{
+	margin: 0 auto;
 	display: block;
 	height: 30px;
-	width: 100%;
+	width: 1226px;
 
 }
 #phone {
-	margin-left: 5%;
+	/* margin-left: 5%; */
 	font-size: 25px;
 	float: left;
 	display: block;
@@ -648,7 +657,7 @@ body{
 	font-size: 15px;
 	line-height: 25px;
 	color: #000;
-	margin-right: 5%;
+	/* margin-right: 5%; */
 	transition: all 0.2s ease;
 	margin-bottom: 20px;
 }
@@ -666,6 +675,7 @@ body{
 }
 
 .phoneLeft {
+	padding-left: 10px;
 	display: block;
 	/* position: absolute;
 	top: 30px; */
@@ -692,7 +702,7 @@ body{
 
 .phoneLeft img:hover {
 	position: absolute;
-	left: 0;
+	left: 10px;
 	top: -3px;
 	transition: all 0.2s ease;
 	box-shadow: 10px 10px 50px #B9B9B9;
@@ -723,7 +733,24 @@ body{
 	overflow: hidden;
 	transition: all 0.2s ease;
 }
+.phoneRight_1n {
+	/* margin-left: 16px; */
+	margin-bottom: 14px;
+	padding: 20px 0;
+	float: left;
+	height: 260px;
+	width: 234px;
+	background-color: #EEEEEE;
+	position: relative;
+	overflow: hidden;
+	transition: all 0.2s ease;
+}
 .phoneRight:hover{
+	top: -3px;
+	transition: all 0.2s ease;
+	box-shadow: 10px 10px 50px #B9B9B9;
+}
+.phoneRight_1n:hover{
 	top: -3px;
 	transition: all 0.2s ease;
 	box-shadow: 10px 10px 50px #B9B9B9;
@@ -790,15 +817,18 @@ body{
 }
 #ad{
 	padding-top:20px ;
-	padding-left: 5%;
+	
 	background-color: #EEEEEE;
-	width: 95%;
+	width: 100%;
 }
-#ad2 img{
+#ad2{
+	margin: 0 auto;
 	width: 1226px;
 	height: 120px;
-	padding: 20px auto;
 }
+/* #ad2 img{
+	
+} */
 
 /* star foot */
 
