@@ -861,7 +861,7 @@ body{
 }
 .help{
 	height: 100px;
-	width: 80%;
+	width: 100%;
 }
 .help li{
 	line-height: 100px;
@@ -872,7 +872,7 @@ body{
 }
 .help1{
 	height: 30px;
-	width: 80%;
+	width: 100%;
 }
 .help1 li{
 	font-size: 12px;
@@ -885,4 +885,59 @@ body{
 .help1 li:hover{
 	color: orange;
 	cursor: pointer;
+}
+.clearfelx:after,
+.claearfelx:before{
+	content: " ";
+	display: table;
+}
+.clearfelx:before{
+	clear: both;
+}
+.foot .helpBox{
+	width: 1212px;
+	height: 200px;
+}
+.foot .helpBoxLeft{
+	float: left;
+	width: 969px;
+}
+.foot .helpboxRight{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	height: 70%;
+	float: right;
+	width: 243px;
+	border-left: #B9B9B9 solid 1px;
+	box-sizing: border-box;
+}
+.helpboxRight .phone{
+	text-align: center;
+	font-size: 24px;
+	color: orangered;
+}
+.helpboxRight>p{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 13px;
+	font-weight: 200;
+	color: #616161;
+}
+.helpboxRight a{
+	margin-top: 20px;
+	transform: translateX(50%);
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	border: orangered solid 1px;
+	color: orangered;
+	line-height: 30px;
+	font-size: 13px;
+	text-align: center;
+	transition: all ease .2s;
+}
+.helpboxRight a:hover{
+	transition: all ease .2s;
+	background-color: orangered;
+	color: #FFFFFF;
 }
