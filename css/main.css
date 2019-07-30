@@ -632,7 +632,7 @@ body{
 	padding-right: 5%; */
 	width: 100%;
 	background-color: #EEEEEE;
-	height: 675px;
+	height: 695px;
 	overflow: hidden;
 
 }
@@ -675,6 +675,7 @@ body{
 }
 
 .phoneLeft {
+	padding-top: 3px;
 	padding-left: 10px;
 	display: block;
 	/* position: absolute;
@@ -697,30 +698,27 @@ body{
 	/* position: absolute;
 	left: 0;
 	top: 0px; */
-	transition: all 0.2s ease;
+	transition: all .2s ease;
 }
 
 .phoneLeft img:hover {
 	position: absolute;
 	left: 10px;
 	top: -3px;
-	transition: all 0.2s ease;
-	box-shadow: 10px 10px 50px #B9B9B9;
+	transition: all 1s ease;
+	box-shadow: 5px 5px 20px #B9B9B9;
 }
 
 .phoneBigRight {
-	float: left;
+	/* float: left; */
+	padding-top: 3px;
 	display: block;
 	width: 1016px;
 	height: 100%;
 	background-color: #EEEEEE;
-	/* *zoom:1; */
+	overflow: hidden;
+	
 }
-/* .phoneBigRight:after{
-	display: table;
-	content: " ";
-	clear: both;
-} */
 .phoneRight {
 	margin-left: 16px;
 	margin-bottom: 14px;
@@ -730,11 +728,17 @@ body{
 	width: 234px;
 	background-color: #EEEEEE;
 	position: relative;
-	overflow: hidden;
-	transition: all 0.2s ease;
+	transition: all ease 1s;
 }
-.phoneRight_1n {
-	/* margin-left: 16px; */
+
+.phoneRight:hover{
+
+	top: -3px;
+	transition: all ease .1s;
+	box-shadow: 5px 5px 20px #B9B9B9;
+}
+/* .phoneRight_1n {
+	margin-left: 16px;
 	margin-bottom: 14px;
 	padding: 20px 0;
 	float: left;
@@ -743,18 +747,13 @@ body{
 	background-color: #EEEEEE;
 	position: relative;
 	overflow: hidden;
-	transition: all 0.2s ease;
-}
-.phoneRight:hover{
+	transition: all ease 1s;
+} */
+/* .phoneRight_1n:hover{
 	top: -3px;
-	transition: all 0.2s ease;
+	transition: all ease .5s;
 	box-shadow: 10px 10px 50px #B9B9B9;
-}
-.phoneRight_1n:hover{
-	top: -3px;
-	transition: all 0.2s ease;
-	box-shadow: 10px 10px 50px #B9B9B9;
-}
+} */
 .phoneOne{
 	background-color: #FFF;
 	height: 300px;
@@ -908,7 +907,7 @@ body{
 	height: 70%;
 	float: right;
 	width: 243px;
-	border-left: #B9B9B9 solid 1px;
+	border-left: #CCCCCC solid 1px;
 	box-sizing: border-box;
 }
 .helpboxRight .phone{
@@ -940,4 +939,47 @@ body{
 	transition: all ease .2s;
 	background-color: orangered;
 	color: #FFFFFF;
+}
+.foot .information{
+	margin: 30px auto;
+}
+.information .logo{
+	float: left;
+	height: 100px;
+	margin-right: 5px;
+}
+.information .right{
+	float: left;
+	margin-left: 5px;
+}
+.rigth .liOne{
+	float: left;	
+	height: 15px;
+}
+.liOne>li{
+	text-align: center;
+	height: 100%;
+	float: left;
+	font-size: 12px;
+	margin: 0 2px;
+	color: #616161;
+	cursor: pointer;
+	transition: all ease .1s;
+}
+.liOne>li:hover{
+	transition: all ease .1s;
+	color: orangered;
+}
+.liOne>li>span{
+	margin: 0 .15em;
+}
+.information .rigth>p{
+	line-height: 18px;
+	font-size: 12px;
+	color: #CCCCCC;
+}
+.fashaokeji p{
+	text-align: center;
+	font-size: 20px;
+	color: #CCCCCC;
 }
