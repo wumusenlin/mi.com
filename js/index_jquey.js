@@ -19,14 +19,14 @@ $(function(){
 	whiteNavShowBoxIn()
 	function whiteNavShowBoxIn () {
 		$(".nav_whith_llist").mouseenter(function () {
-			$("#whiteNavShowBox").slideDown(200);
+			$("#whiteNavShowBox").stop().slideDown(200);
 		});
 	}
 	
 	whiteNavShowBoxOut()
 	function whiteNavShowBoxOut () {
 		$(".nav_whith_llist").mouseleave(function () {
-			$("#whiteNavShowBox").slideUp(200);
+			$("#whiteNavShowBox").stop().slideUp(200);
 		});
 	}
 // 	gouwuche()
